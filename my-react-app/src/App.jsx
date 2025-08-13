@@ -100,7 +100,7 @@ const App = () => {
         </form>
         <ul className='w-[80vw] mx-auto border-2 border-sky-200 p-4 grid grid-cols-1 md:grid-cols-4 bg-white rounded-lg shadow'>
           {pokemons.map((pokemon, idx) => (
-            <li key={idx} className='h-[50vh] w-[90%] border-2 border-pink-200 flex flex-col mb-4 bg-white rounded-lg shadow'>
+            <li key={idx} className='h-[65vh] w-[90%] border-2 border-pink-200 flex flex-col mb-4 bg-white rounded-lg shadow'>
               <div className='w-full h-[65%] border-sky-100 border-2 flex items-center justify-center bg-slate-50 rounded-t-lg'>
                 <img src={pokemon.image} alt={pokemon.name} className='w-full h-full object-contain'/>
               </div>
