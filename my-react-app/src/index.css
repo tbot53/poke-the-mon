@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+.header-title {
+  /* Shadow uses sky-900 but with transparency */
+  text-shadow: 2px 2px 4px rgba(12, 74, 110, 0.3);
+}
+
+/* Optional: subtle hover pop */
+.header-title:hover {
+  text-shadow: 3px 3px 6px rgba(12, 74, 110, 0.4);
+}
